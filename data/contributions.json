@@ -1,0 +1,135 @@
+{
+  "as_of": "2026-05-29",
+  "contributor": "LetsWalkInLine",
+  "primary_repository": "rcore-os/tgoskits",
+  "summary": {
+    "tgoskits_merged_prs": 7,
+    "tgoskits_commits": 17,
+    "tgoskits_changed_files": 50,
+    "tgoskits_additions": 4007,
+    "tgoskits_deletions": 224
+  },
+  "tgoskits": [
+    {
+      "number": 468,
+      "url": "https://github.com/rcore-os/tgoskits/pull/468",
+      "title": "test(starry-signal): fix cross-arch restore assumptions and document prior stack-isolation fix",
+      "state": "merged",
+      "merged_at": "2026-05-09T06:44:32Z",
+      "base": "dev",
+      "commits": 3,
+      "changed_files": 3,
+      "additions": 12,
+      "deletions": 4,
+      "theme": "starry-signal cross-architecture restore test fix"
+    },
+    {
+      "number": 545,
+      "url": "https://github.com/rcore-os/tgoskits/pull/545",
+      "title": "fix(starry): harden futex wait and robust-list semantics",
+      "state": "merged",
+      "merged_at": "2026-05-13T03:16:01Z",
+      "base": "dev",
+      "commits": 4,
+      "changed_files": 10,
+      "additions": 874,
+      "deletions": 45,
+      "theme": "futex wait cleanup, requeue identity, bitset validation, robust-list owner death"
+    },
+    {
+      "number": 657,
+      "url": "https://github.com/rcore-os/tgoskits/pull/657",
+      "title": "fix(starry): Improve the basic semantics of futex and robust-list",
+      "state": "merged",
+      "merged_at": "2026-05-18T07:20:29Z",
+      "base": "dev",
+      "commits": 2,
+      "changed_files": 4,
+      "additions": 802,
+      "deletions": 93,
+      "theme": "futex op parsing, private/shared key handling, cmp requeue, robust-list edge cases"
+    },
+    {
+      "number": 796,
+      "url": "https://github.com/rcore-os/tgoskits/pull/796",
+      "title": "fix(starry): 支持 socket FIOASYNC 状态",
+      "state": "merged",
+      "merged_at": "2026-05-22T03:12:59Z",
+      "base": "dev",
+      "commits": 3,
+      "changed_files": 7,
+      "additions": 457,
+      "deletions": 9,
+      "theme": "nginx worker channel FIOASYNC, O_ASYNC, F_SETOWN compatibility"
+    },
+    {
+      "number": 869,
+      "url": "https://github.com/rcore-os/tgoskits/pull/869",
+      "title": "fix(starry-kernel): support TCP socket FIONREAD",
+      "state": "merged",
+      "merged_at": "2026-05-25T02:22:15Z",
+      "base": "dev",
+      "commits": 2,
+      "changed_files": 11,
+      "additions": 866,
+      "deletions": 2,
+      "theme": "TCP socket FIONREAD and nginx smoke testing"
+    },
+    {
+      "number": 989,
+      "url": "https://github.com/rcore-os/tgoskits/pull/989",
+      "title": "feat(starry-kernel): add initial cgroup2 support",
+      "state": "merged",
+      "merged_at": "2026-05-28T03:20:07Z",
+      "base": "dev",
+      "commits": 1,
+      "changed_files": 11,
+      "additions": 391,
+      "deletions": 0,
+      "theme": "initial cgroup2 mount and root interface files"
+    },
+    {
+      "number": 1015,
+      "url": "https://github.com/rcore-os/tgoskits/pull/1015",
+      "title": "feat(starry-kernel): support cgroup2 hierarchy mkdir and rmdir",
+      "state": "merged",
+      "merged_at": "2026-05-29T03:13:00Z",
+      "base": "dev",
+      "commits": 2,
+      "changed_files": 4,
+      "additions": 605,
+      "deletions": 71,
+      "theme": "cgroup2 hierarchy mkdir/rmdir and non-cacheable VFS support"
+    }
+  ],
+  "tracking_issue": {
+    "number": 582,
+    "url": "https://github.com/rcore-os/tgoskits/issues/582",
+    "title": "[starryos]方案二：跟踪支持 cgroup 的工作",
+    "state": "open",
+    "created_at": "2026-05-13T08:29:41Z",
+    "updated_at": "2026-05-28T11:12:27Z"
+  },
+  "related_community_prs": [
+    {
+      "repository": "arceos-org/axcpu",
+      "number": 28,
+      "url": "https://github.com/arceos-org/axcpu/pull/28",
+      "title": "fix(riscv): set FP state before restore or clear",
+      "state": "merged",
+      "merged_at": "2026-03-23T07:58:32Z",
+      "base": "dev",
+      "note": "Same technical fix as PR #30; merged to dev."
+    },
+    {
+      "repository": "arceos-org/axcpu",
+      "number": 30,
+      "url": "https://github.com/arceos-org/axcpu/pull/30",
+      "title": "fix(riscv): set FS before fp restore/clear in switch_to",
+      "state": "merged",
+      "merged_at": "2026-03-23T08:07:04Z",
+      "base": "main",
+      "note": "Resubmitted to main as requested by maintainers; supersedes PR #28."
+    }
+  ]
+}
