@@ -1,13 +1,18 @@
 {
-  "as_of": "2026-05-29",
+  "as_of": "2026-05-30",
   "contributor": "LetsWalkInLine",
   "primary_repository": "rcore-os/tgoskits",
   "summary": {
     "tgoskits_merged_prs": 7,
+    "tgoskits_open_prs": 1,
     "tgoskits_commits": 17,
     "tgoskits_changed_files": 50,
     "tgoskits_additions": 4007,
-    "tgoskits_deletions": 224
+    "tgoskits_deletions": 224,
+    "tgoskits_open_commits": 5,
+    "tgoskits_open_changed_files": 7,
+    "tgoskits_open_additions": 392,
+    "tgoskits_open_deletions": 7
   },
   "tgoskits": [
     {
@@ -100,6 +105,19 @@
       "additions": 605,
       "deletions": 71,
       "theme": "cgroup2 hierarchy mkdir/rmdir and non-cacheable VFS support"
+    },
+    {
+      "number": 1045,
+      "url": "https://github.com/rcore-os/tgoskits/pull/1045",
+      "title": "feat(starry-kernel): support cgroup2 process migration",
+      "state": "open",
+      "merged_at": null,
+      "base": "dev",
+      "commits": 5,
+      "changed_files": 7,
+      "additions": 392,
+      "deletions": 7,
+      "theme": "cgroup2 cgroup.procs process migration and /proc/[pid]/cgroup view"
     }
   ],
   "tracking_issue": {
