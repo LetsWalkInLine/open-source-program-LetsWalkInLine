@@ -375,4 +375,3 @@ cgroup 两个 PR 将 StarryOS 从没有 `cgroup2` mount 支持推进到：
 
 当前成果有明确边界，没有完成完整 Docker、完整 nginx 或完整 cgroup controller。但每个已合并 PR 都对应真实问题、明确修复、公开 review 和可复核测试。
 
-很高兴能够为社区贡献自己的一份力量，并在此过程中收获了许多成长。以上内容恳请各位评委老师审阅，感谢您的时间与指导。
